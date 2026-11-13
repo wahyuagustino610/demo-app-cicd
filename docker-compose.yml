@@ -1,13 +1,14 @@
 services:
   app:
     image: demo-app:${IMAGE_TAG}
+    build: .
     container_name: demo-${APP_ENV}
     init: true
     restart: unless-stopped
     environment:
       APP_ENV: ${APP_ENV}
     ports:
-      - "127.0.0.1:${HOST_PORT}:8000"
+      - "${HOST_PORT}:8000"
     read_only: true
     mem_limit: ${MEM_LIMIT}
     logging:
