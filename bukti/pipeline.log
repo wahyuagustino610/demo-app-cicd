@@ -1,0 +1,50 @@
+2026-11-13 00:48:10 BUILD demo-app:1.0.0-477a3a6
+2026-11-13 00:48:12 TEST image 1.0.0-477a3a6
+2026-11-13 00:48:14 OK: http://127.0.0.1:8099 env=test versi=1.0.0-477a3a6
+2026-11-13 00:48:14 DEPLOY dev: kosong -> 1.0.0-477a3a6
+2026-11-13 00:48:17 OK: http://127.0.0.1/dev env=development versi=1.0.0-477a3a6
+2026-11-13 00:48:17 SUKSES dev = 1.0.0-477a3a6
+2026-11-13 00:48:17 OK: http://127.0.0.1/dev env=development versi=1.0.0-477a3a6
+2026-11-13 00:48:17 DEPLOY staging: kosong -> 1.0.0-477a3a6
+2026-11-13 00:48:19 OK: http://127.0.0.1/staging env=staging versi=1.0.0-477a3a6
+2026-11-13 00:48:19 SUKSES staging = 1.0.0-477a3a6
+2026-11-13 00:51:24 BUILD demo-app:1.0.1-15447d5
+2026-11-13 00:51:25 TEST image 1.0.1-15447d5
+2026-11-13 00:51:27 OK: http://127.0.0.1:8099 env=test versi=1.0.1-15447d5
+2026-11-13 00:51:28 DEPLOY dev: 1.0.0-477a3a6 -> 1.0.1-15447d5
+2026-11-13 00:51:30 OK: http://127.0.0.1/dev env=development versi=1.0.1-15447d5
+2026-11-13 00:51:30 SUKSES dev = 1.0.1-15447d5
+2026-11-13 00:51:30 OK: http://127.0.0.1/dev env=development versi=1.0.1-15447d5
+2026-11-13 00:51:30 DEPLOY staging: 1.0.0-477a3a6 -> 1.0.1-15447d5
+2026-11-13 00:51:33 OK: http://127.0.0.1/staging env=staging versi=1.0.1-15447d5
+2026-11-13 00:51:33 SUKSES staging = 1.0.1-15447d5
+2026-11-13 00:55:12 OK: http://127.0.0.1/staging env=staging versi=1.0.1-15447d5
+2026-11-13 00:55:35 PROMOSI ke beta ditolak
+2026-11-13 00:55:58 OK: http://127.0.0.1/staging env=staging versi=1.0.1-15447d5
+2026-11-13 00:56:09 DEPLOY beta: kosong -> 1.0.1-15447d5
+2026-11-13 00:56:11 OK: http://127.0.0.1/beta env=beta versi=1.0.1-15447d5
+2026-11-13 00:56:11 SUKSES beta = 1.0.1-15447d5
+2026-11-13 00:57:55 OK: http://127.0.0.1/staging env=staging versi=1.0.1-15447d5
+2026-11-13 00:58:05 DEPLOY beta: 1.0.1-15447d5 -> 1.0.1-15447d5
+2026-11-13 00:58:05 OK: http://127.0.0.1/beta env=beta versi=1.0.1-15447d5
+2026-11-13 00:58:05 SUKSES beta = 1.0.1-15447d5
+2026-11-13 01:00:48 OK: http://127.0.0.1/beta env=beta versi=1.0.1-15447d5
+2026-11-13 01:00:56 DEPLOY live: kosong -> 1.0.1-15447d5
+2026-11-13 01:00:58 OK: http://127.0.0.1/live env=live versi=1.0.1-15447d5
+2026-11-13 01:00:58 SUKSES live = 1.0.1-15447d5
+2026-11-13 01:07:33 DEPLOY staging: 1.0.1-15447d5 -> rusak
+2026-11-13 01:08:04 GAGAL: http://127.0.0.1/staging/health tidak OK
+2026-11-13 01:08:04 GAGAL deploy staging. Cek: docker ps, docker logs demo-staging
+2026-11-13 01:08:04 ROLLBACK otomatis staging -> 1.0.1-15447d5
+2026-11-13 01:08:07 OK: http://127.0.0.1/staging env=staging versi=1.0.1-15447d5
+2026-11-13 01:11:54 DEPLOY staging: 1.0.1-15447d5 -> 1.0.1-15447d5
+2026-11-13 01:11:56 OK: http://127.0.0.1/staging env=staging versi=1.0.1-15447d5
+2026-11-13 01:11:56 SUKSES staging = 1.0.1-15447d5
+2026-11-13 01:12:20 ROLLBACK manual staging -> 1.0.0-477a3a6
+2026-11-13 01:12:20 DEPLOY staging: 1.0.1-15447d5 -> 1.0.0-477a3a6
+2026-11-13 01:12:23 OK: http://127.0.0.1/staging env=staging versi=1.0.0-477a3a6
+2026-11-13 01:12:23 SUKSES staging = 1.0.0-477a3a6
+2026-11-13 01:13:00 OK: http://127.0.0.1/dev env=development versi=1.0.1-15447d5
+2026-11-13 01:13:00 DEPLOY staging: 1.0.0-477a3a6 -> 1.0.1-15447d5
+2026-11-13 01:13:02 OK: http://127.0.0.1/staging env=staging versi=1.0.1-15447d5
+2026-11-13 01:13:02 SUKSES staging = 1.0.1-15447d5

@@ -1,0 +1,4 @@
+dev      versi=1.0.1-15447d5      sebelumnya=1.0.0-477a3a6      health=200
+staging  versi=1.0.1-15447d5      sebelumnya=1.0.0-477a3a6      health=200
+beta     versi=1.0.1-15447d5      sebelumnya=                   health=200
+live     versi=1.0.1-15447d5      sebelumnya=                   health=200
